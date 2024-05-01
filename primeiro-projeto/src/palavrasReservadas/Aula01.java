@@ -1,12 +1,13 @@
 package palavrasReservadas;
 
 public class Aula01 {
+    public static void main(String[] args) {
+        
+    Aula02 palavras = new Aula02();
+    System.out.println(palavras.publico);
+
     
-    public String publico = "Atributo e método Para todo mundo!";
-    private String privadaa = "A Nivel de classe";
-    protected String protegida = "Só para herança!";
-    
-    System.out.println(privadaa);
-    
+    }
     
 }
+
