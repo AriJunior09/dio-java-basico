@@ -24,7 +24,6 @@ public class AboutMe {
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
         
-        
     }
 }
 
