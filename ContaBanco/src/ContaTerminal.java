@@ -1,40 +1,33 @@
+import java.util.Scanner;
+
 public class ContaTerminal {
-    public int numero;
-    public String agencia;
-    public String nomeCliente;
-    public double saldo;
-    
+    public static void main(String[] args){
+        // TODO: Conhecer e importar a classe Scanner
 
-    public ContaTerminal(){
+        // Exibir as mensagens para o nosso usuário
 
-    }
+        // Obter pela scanner os valores digitados no terminal
 
-    public int getNumero() {
-        return numero;
-    }
+        // Exibir a mensagem conta criada
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
+        Scanner sc = new Scanner(System.in);
 
-    public String getAgencia() {
-        return agencia;
-    }
+        System.out.print("Digite o número da conta: ");
+         int numero = sc.nextInt();
 
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
-    }
+         System.out.print("Digite o nome da agência: ");
+         String agencia = sc.next();
 
-    public String getNomeCliente() {
-        return nomeCliente;
-    }
+         System.out.print("Digite o nome do cliente: ");
+         String nomeCliente = sc.next();
 
-    public void setNomeCliente(String nomeCliente) {
-        this.nomeCliente = nomeCliente;
-    }
+         System.out.print("Digite o saldo da Conta: ");
+         double saldo = sc.nextDouble();
 
-    public double getSaldo() {
-        return saldo;
-    }
+
+
+         System.out.printf("Olá %s, a sua conta %d do Banco %s está disponível e com saldo de %.2f", nomeCliente, numero, agencia, saldo);
+
+    } 
     
 }
