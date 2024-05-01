@@ -5,6 +5,18 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
 
+    public void aumentarCanal(){
+        canal++;
+    }
+
+    public void diminuirCanal(){
+        canal--;
+    }
+
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
+
     public void aumentarVolume(){
         volume++;  // Mesma coisa que dizer: volume = volume + 1
         System.out.println("Aumentando o volume para: " + volume);
