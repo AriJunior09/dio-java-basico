@@ -1,7 +1,12 @@
 import java.util.Random;
 public class Exemplo_doWhile {
     public static void main(String[] args) {
-        
+        System.out.println("Discando...");
+        do{
+            // Executando repetidas vezes até alguém atender
+            System.out.println("Telefone tocando...");
+        }while(tocando());
+        System.out.println("Alo !!!");
     }
 
     public static boolean tocando(){
