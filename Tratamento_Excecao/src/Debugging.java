@@ -21,3 +21,4 @@ public class Debugging {
         return soma / alunos.length;
     }
 }
+// Teste de debugging
