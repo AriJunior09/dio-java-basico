@@ -20,5 +20,6 @@ public class Desafio {
         double saida = valorSalario - valorImposto + valorBeneficio;
         System.out.println(String.format("%.2f", saida));
         
+        sc.close();
     }
 }
