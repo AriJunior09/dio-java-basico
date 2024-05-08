@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class Simulacao {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double saldo = 0;
 
         int opcao;
         do {
-            opcao = scanner.nextInt();
+            opcao = sc.nextInt();
 
             switch (opcao) {
                 case 1:
-                    double deposito = scanner.nextDouble();
+                    double deposito = sc.nextDouble();
                     saldo += deposito;
                     System.out.println("Saldo atual: " + saldo);
                     break;
                 case 2:
-                    double saque = scanner.nextDouble();
+                    double saque = sc.nextDouble();
                     if (saque > saldo) {
                         System.out.println("Saldo insuficiente");
                     }else{
