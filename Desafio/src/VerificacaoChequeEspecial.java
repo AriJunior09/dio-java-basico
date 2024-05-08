@@ -22,7 +22,7 @@ public class VerificacaoChequeEspecial {
         }
         
 
-// Fechamos o objeto Scanner para liberar os recursos:
+            // Fechamos o objeto Scanner para liberar os recursos:
         scanner.close(); 
     }
 }
