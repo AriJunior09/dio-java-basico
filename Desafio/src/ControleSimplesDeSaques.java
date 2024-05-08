@@ -9,6 +9,7 @@ public class ControleSimplesDeSaques {
         
         // Loop for para iterar sobre os saques:
         for (double i = 0; ; i++) {
+            System.out.println("Digite o valor do saque: ");
             double saque = scanner.nextDouble();
             
             if (saque == 0) {
