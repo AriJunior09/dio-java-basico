@@ -4,7 +4,7 @@ public class ControleSimplesDeSaques {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Escolha quanto deseja reservar para limite diário: ");
         double limiteDiario = scanner.nextDouble();
         
         // Loop for para iterar sobre os saques:
