@@ -28,5 +28,4 @@ public class Usuario {
         System.out.println("Tv Ligada: " + smartTv.ligada);
 
     } 
-        
 }
