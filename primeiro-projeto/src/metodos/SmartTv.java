@@ -25,10 +25,13 @@ public class SmartTv {
         volume--;  // Mesma coisa que dizer: volume = volume - 1
         System.out.println("Diminuindo o volume para: " + volume);
     }
+
     public void ligar(){
         ligada = true;
     }
+
     public void desligar(){
         ligada = false;
     }
+    
 }
